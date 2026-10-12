@@ -17,7 +17,8 @@ Site estático em **HTML, CSS e JavaScript puros** (sem build, sem framework), p
 - **Novo projeto:** copie um `<article class="card">` em `#projetos`. O atributo `data-tags`
   define os filtros (`produto`, `web`, `mobile`, `backend`, `academico`). Use `card-feature` para destaque.
 - **Status (o "farol"):** `dot-green` = produção · `dot-amber` = interno/privado · `dot-gray` = acadêmico.
-- **Stack:** em `#stack`, `data-n` é a quantidade de projetos que usam a tecnologia (1 ponto = 1 projeto).
+- **Stack:** em `#stack`, `data-n` é quantos projetos exibidos usam a tecnologia (1 ponto = 1 projeto).
+  Ao adicionar ou remover um card, atualize esses valores, os números do topo (`data-count`) e o `MAX` no `script.js`.
 - **Terminal do topo:** array `lines` no fim do `script.js`.
 - **Cores:** variáveis em `:root` no início do `style.css` (`--accent` é a cor de destaque).
 
