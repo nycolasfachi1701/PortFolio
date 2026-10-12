@@ -79,7 +79,7 @@
   document.querySelectorAll('[data-count]').forEach((el) => countIO.observe(el));
 
   /* ---------- medidor da stack (1 ponto = 1 projeto) ---------- */
-  const MAX = 10;
+  const MAX = 7; // total de projetos exibidos na seção #projetos
   document.querySelectorAll('.meter i').forEach((i) => {
     const n = +i.dataset.n;
     i.setAttribute('aria-label', n + (n === 1 ? ' projeto' : ' projetos'));
