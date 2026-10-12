@@ -141,7 +141,6 @@
     [['c-ok', '  ● '], ['c-name', 'servus   '], ['', ' next·supabase·expo     '], ['c-ok', 'no ar']],
     [['c-warn', '  ● '], ['c-name', 'medtrack '], ['', ' next·postgres·neon     '], ['c-warn', 'privado']],
     [['c-warn', '  ● '], ['c-name', 'farol    '], ['', ' next·redis·jwt         '], ['c-warn', 'interno']],
-    [['c-warn', '  ● '], ['c-name', 'nmfinance'], ['', ' node·pg·pwa            '], ['c-warn', 'privado']],
     [['', '']],
     [['c-prompt', '$ '], ['c-cmd', 'whoami']],
     [['', '  dev full-stack · ciência da computação']],
